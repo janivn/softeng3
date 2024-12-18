@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.actives {
+    border-bottom: 3px solid #0e3825;
+}
+
+.full-height {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    top: -80px; /* Adjust this value to match your navbar height */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.actives {
+    border-bottom: 3px solid #0e3825;
+}
+
+.full-height {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.taks-color {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 10px 20px;
+    background-color: #ff4785;
+    border-radius: 5px;
+}
+
+#search-container {
+    position: relative;
+}
+
+#search-input {
+    max-width: 200px;
+    transition: all 0.3s ease;
+}
+/* Hide the navbar when scrolled down */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    top: -80px; /* Adjust this value to match your navbar height */
+}
+
+#profileButton {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+ 
+#profileButton:hover {
+    background-color: #e0e0e0;
+  }
+
+  #profilePopup {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#profilePopup ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#profilePopup li {
+    margin-bottom: 10px;
+}
+
+#profilePopup a {
+    text-decoration: none;
+    color: #333;
+}

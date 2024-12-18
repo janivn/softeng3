@@ -1,0 +1,181 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Header and Navbar */
+.header {
+    background-color: #0066cc;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar .btn:hover {
+    background-color: #218838;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('assets/img/travel.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.hero .buttons .join {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.hero .buttons .join:hover {
+    background-color: #218838;
+}
+
+.hero .buttons .learn {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.hero .buttons .learn:hover {
+    background-color: #0056b3;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+}
+
+#pictures img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pictures img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 15px 0;
+}
+
+/* Profile Popup */
+#profileButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#profileButton:hover {
+    background-color: #218838;
+}
+
+#profilePopup {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1000;
+    width: 200px;
+}
+
+#profilePopup ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#profilePopup ul li {
+    margin: 10px 0;
+}
+
+#profilePopup ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#profilePopup ul li a:hover {
+    color: #0066cc;
+}
+
